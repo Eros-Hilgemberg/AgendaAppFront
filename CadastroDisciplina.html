@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">AgendaApp</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="/Professores.html">Professores</a></li>
+                <li><a href="/Alunos.html">Alunos</a></li>
+                <li><a href="/Responsáveis.html">Responsáveis</a></li>
+                <li><a href="/Atividades.html">Atividades</a></li>
+                <li><a href="/Diciplinas.html">Diciplinas</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container z-depth-5" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col s12 s6 offset-s4">
+                <h4>Cadastrar Atividade</h4>
+            </div>
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">N</i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">Nome</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">vpn_key</i>
+                        <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                        <label for="icon_prefix2">Chave</label>
+                    </div>
+                    <div class="col s12">
+                        <label>Selecione um Professor</label>
+                        <select class="browser-default">
+                            <option value="" disabled selected>Selecione um professor</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+
+                    <div class="input-field">
+                        <a class="input-field col s6 offset-s3 waves-effect waves-light btn">Cadastrar</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
